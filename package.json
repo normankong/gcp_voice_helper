@@ -1,0 +1,35 @@
+{
+  "name": "gcp_voice_helper",
+  "version": "1.0.0",
+  "description": "Google Cloud Speech To Text API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=processSpeechToText"
+  },
+  "author": "Norman K K Kong",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@ffprobe-installer/ffprobe": "^1.0.12",
+    "@google-cloud/speech": "^3.3.0",
+    "dotenv": "^6.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "temp": "^0.9.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normankong/gcp_speech_to_text.git"
+  },
+  "keywords": [
+    "GCP",
+    "CloudFunction",
+    "SpeechToText"
+  ],
+  "bugs": {
+    "url": "https://github.com/normankong/gcp_speech_to_text/issues"
+  },
+  "homepage": "https://github.com/normankong/gcp_speech_to_text#readme"
+}
